@@ -127,8 +127,8 @@ public final class TabGui implements KeyPressListener
 		GL11.glPushMatrix();
 		Window sr = WurstClient.MC.getWindow();
 		
-		int x = 2;
-		int y = 41;
+		int x = 0;
+		int y = 21;
 		
 		GL11.glTranslatef(x, y, 0);
 		drawBox(0, 0, width, height);
